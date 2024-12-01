@@ -294,12 +294,13 @@ const InfiniteCanvas: React.FC = () => {
 
         // Replace text rendering with new function
         renderCircleText(ctx, circle)
-        
+
       })
 
       // Draw rain circles
       rainCircles.forEach((circle) => {
         ctx.beginPath();
+        
         ctx.arc(circle.x, circle.y, circle.radius, 0, Math.PI * 2);
         ctx.strokeStyle = circle.color + Math.floor(circle.opacity * 255).toString(16).padStart(2, '0');
         ctx.lineWidth = 1;
