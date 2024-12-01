@@ -294,6 +294,7 @@ const InfiniteCanvas: React.FC = () => {
 
         // Replace text rendering with new function
         renderCircleText(ctx, circle)
+        
       })
 
       // Draw rain circles
