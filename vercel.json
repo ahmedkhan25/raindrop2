@@ -3,8 +3,5 @@
   "devCommand": "next dev",
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "nextjs",
-  "regions": ["iad1"],
-  "env": {
-    "ANTHROPIC_API_KEY": "@ANTHROPIC_API_KEY"
-  }
+  "regions": ["iad1"]
 } 
